@@ -1,0 +1,123 @@
+
+body {
+  color: #555555;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.banner {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240715/pngtree-d-cat-chef-in-the-kitchen-prepares-food-funny-ai-generated-image_16012197.jpg");
+  background-size: 100% auto;
+  padding: 120px;
+}
+
+.banner h1 {
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner p {
+  font-size: 36px;
+  color: rgb(132, 16, 16);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgb(233, 253, 240), rgba(233, 253, 240, 1));
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(121, 211, 152), rgba(121, 211, 152, 1));
+}
+
+.container {
+  width: 1000px;
+  margin: auto auto;
+}
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+  .banner {
+    background-size: 100% auto;
+    padding: 40px;
+  }
+
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .banner {
+    background-size: 100% auto;
+    padding: 40px;
+  }
+  .banner h1 {
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+  .banner p {
+    font-size: 24px;
+    color: rgb(132, 16, 16);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  .banner {
+    background-size: 100% auto;
+    padding: 45px;
+  }
+  .banner h1 {
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+  .banner p {
+    font-size: 20px;
+    color: rgb(132, 16, 16);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+  .banner {
+    background-size: 100% auto;
+    padding: 30px;
+  }
+  .banner h1 {
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+  .banner p {
+    font-size: 16px;
+    color: rgb(132, 16, 16);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
